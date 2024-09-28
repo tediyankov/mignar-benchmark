@@ -2,6 +2,8 @@
 
 This repo contains the code and dataset pertaining to MigNar - a benchmark dataset which leverages recent advances in generative transformer-based large language models (LLMs) to simulate ground truth in a corpus of synthetically generated articles on Brexit and migration. The generative architecture is as follows: 
 
+![alt text](https://github.com/tediyankov/mignar-benchmark/blob/main/mignar_gen.png.jpg?raw=true)
+
 1. Start with a prompt template. At this stage, the prompt employs two-shot learning (2SL) by providing two examples using different parameter combinations.
 2. A random draw is made from a distribution of narratives on migration.
 3. A random draw is made from a distribution of UK publications. Context for this is taught to the LLM via 2SL.
